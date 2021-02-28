@@ -1,0 +1,122 @@
+body{
+    width: 100%;
+    background: rgb(214,195,189);
+    background: linear-gradient(128deg, rgba(214,195,189,1) 12%, rgba(255,211,148,1) 42%, rgba(233,233,233,0.8519782913165266) 64%);
+    
+}
+
+div{
+    padding:15px 15px 15px 15px;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: inherit;
+}
+
+#main_head{
+    max-height: 40%;
+    background-color: rgb(184, 184, 184);
+}
+h1{
+    color: rgba(0, 0, 0, 0.575);
+    margin-left: 5%;
+}
+.selection{
+    display: inherit;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: inherit;
+}
+
+.post_header{
+    display: block;
+}
+.right_post{
+    display: flex;
+    width: 100%;
+    background-color: #ffffff36;
+    max-height: 25%;
+}
+#contactUs{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    min-width:25%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+#contactUs:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+#payHere{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    min-width:25%;
+    margin-left: 10%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#payHere:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+.left_post{
+    display:block;
+}
+.grid_container {
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #ffffff69;
+    padding: 5%;
+  }
+.grid_item {
+    background-color: rgba(255, 255, 255, 0.363);
+    padding: 10%;
+    font-size: 30px;
+    text-align: center;
+}
+.footer{
+    color: rgba(0, 0, 0, 0.575);
+}
+a{
+    color: rgba(0, 0, 0, 0.575);
+}
+
+@media only screen and (min-width:852px){
+    /*For Desktop Display*/
+    .post_header{
+        display: flex;
+        margin: 5% 5% 5% 5%;
+    }
+    .left_post{
+        display: block;
+        min-width: 50%;
+    }
+    .right_post{
+        display:block;
+        top: 0px;
+        float: right;
+        width:20%;
+        margin-top: 100px;
+        margin-left: 15%;
+    }
+    .selection{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #contactUs{
+        margin-top: 25%;
+        min-width: 20%;
+    }
+
+    #payHere{
+        min-width: 20%;
+        margin-left: 0%;
+    }
+
+}
